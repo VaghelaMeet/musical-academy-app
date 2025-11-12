@@ -79,7 +79,7 @@ Components included:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/musical-academy-app.git
+git clone https://github.com/VaghelaMeet/musical-academy-app.git
 
 # Navigate to the project folder
 cd musical-academy-app
