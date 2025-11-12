@@ -77,8 +77,8 @@ export const AnimatedTooltip = ({
                 justify-center rounded-md bg-black px-4 py-2 text-xs shadow-xl 
                 ring-1 ring-violet-500 ring-offset-2 ring-offset-black transition-all duration-50"
               >
-                <div className="absolute inset-x-10 -bottom-px z-30 h-px w-[20%] bg-gradient-to-r from-transparent via-emerald-500 to-transparent" />
-                <div className="absolute -bottom-px left-10 z-30 h-px w-[40%] bg-gradient-to-r from-transparent via-sky-500 to-transparent" />
+                <div className="absolute inset-x-10 -bottom-px z-30 h-px w-[20%] bg-linear-gradient-to-r from-transparent via-emerald-500 to-transparent" />
+                <div className="absolute -bottom-px left-10 z-30 h-px w-[40%] bg-linear-gradient-to-r from-transparent via-sky-500 to-transparent" />
                 <div className="relative z-30 text-base font-bold text-white">
                   {item.name}
                 </div>
