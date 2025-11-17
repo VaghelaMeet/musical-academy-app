@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 import { motion } from "motion/react";
+import type { Transition } from "motion/react";
 
-const transition = {
+const transition: Transition = {
   type: "spring",
   mass: 0.5,
   damping: 11.5,
@@ -116,4 +117,4 @@ export const HoveredLink = ({ children, ...rest }: any) => {
       {children}
     </a>
   );
-};  
+};
